@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build and Start Containers') {
             steps {
-                echo 'Building and starting containers with Docker Compose.....'
+                echo 'Building and starting containers with Docker Compose...'
                 script {
                     // Ensure the Docker daemon is running
                     sh 'docker info'
