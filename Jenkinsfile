@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                echo 'Cloning repository...'
+                echo 'Cloning repository.'
                 git branch: 'main', url: "${REPO_URL}"
             }
         }
