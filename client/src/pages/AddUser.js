@@ -53,7 +53,7 @@ const AddUser = () => {
       </div>
       <div className="text-center">
         <button className="btn btn-primary" onClick={handleSubmit}>
-          Submit
+          Submit test
         </button>
       </div>
     </div>
